@@ -1,0 +1,10 @@
+.logos img{
+    width: 200px;
+}
+.logos{
+    display: flex;
+    text-align: center;
+}
+.esquerda{
+    margin-left: 50px;
+}
