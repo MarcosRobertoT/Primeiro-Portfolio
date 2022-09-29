@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <script src="./JS/script.js"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,36 +11,38 @@
 </head>
 <body>
     <header>
-        <img src="./Img/Eu_Caras.jpg" alt="Um grupo de pessoas usando tiara de flores">
+        <img src="./Img/Eu_Chad_Alargado.jpg" alt="Um homem usando filtro de barba e usando uma tiara">
         <nav>
             <ul>
-                <li>Menu</li>
-                <li>Sobre</li>
-                <li>Atividades</li>
-                <li>Hobbies</li>
-                <li>Atividades</li>
-            </ul>
-        </nav>
+                <!-- <li>Menu</li> -->
+                <li> <a href="#Sobre">Sobre</a></li>
+                <li><a href="#informacoes">Informações</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#aprendendo">Atividades</a></li>
+                </ul>
+            </nav>
     </header>
-
-    <div class="content">
-        <h1>
+    <br>
+    <main class="content">
+        <h1 id="Sobre">
             Marcos Roberto Teixeira da Cruz
         </h1>
+        <br>
         <div class="apresentacao">
-            <img src="./Img/Eu_Tiara_top.jpg" alt="Um homem feliz usando uma tiara de flores">
-            <p>
-                Opa, Tudo Bom? Eu me chamo Marcos Roberto, tenho 17 anos de idade, estou cursando o 2º ano do ensino médio e desenvolvimento de sistemas e sou alguém bem falante. Eu gosto de ir ao parque caminhar/conversar com os meus amigos(Mesmo que recentemente não tenhamos conseguido ir), adoro ler mangás, webtoon e prefiro alimentos salgados. 
-            </p>
-            <p>
-                Eu comecei o curso a pouco tempo, mas eu já estou adorando ele e, após a conclusão do mesmo, pretendo me especializar mais ainda na área(provavelmente, fazendo uma faculdade de engenharia de software).
-            </p>
-        </div>
+            <img class="img_sobre" src="./Img/Eu_Tiara_top.jpg" alt="Um homem feliz usando uma tiara de flores">
+            <div class="texto_apresentacao">
+                <p>
+                    Opa, Tudo Bom? Eu me chamo Marcos Roberto, tenho 17 anos de idade, estou cursando o 2º ano do ensino médio e desenvolvimento de sistemas e sou alguém bem falante. Eu gosto de ir ao parque caminhar/conversar com os meus amigos(Mesmo que recentemente não tenhamos conseguido ir), adoro ler mangás, webtoon e prefiro alimentos salgados. 
+                </p>
+                <br>
+                <p>
+                    Eu comecei o curso a pouco tempo, mas eu já estou adorando ele e, após a conclusão do mesmo, pretendo me especializar mais ainda na área(provavelmente, fazendo uma faculdade de engenharia de software).
+                </p>
             <br>
-            <div class="curiosidades">
-                <h3>
+            <div class="curiosidades" id="curiosidades">
+                <h1 id="cusiosidades">
                     Curiosidades
-                </h3>
+                </h1>
                 <ul>
                     <li>Sei tocar o básico de teclado;</li>
                     <li>Estou aprendendo a tocar violão;</li>
@@ -48,29 +51,39 @@
                     <li>Sou uma pessoa comunicativa e extrovertida;</li>
                     <li>Tenho facilidade para trabalhar em grupo.</li>
                 </ul>
+                <br>
             </div>
-            <div class="informacoes">
-                <h3>
+            <div class="informacoes" id="informacoes">
+                <h1>
                     Informações
-                </h3>
+                </h1>
                 <ul>
                     <li><b>Telefone:</b> (11) 96483-6315</li>
                     <li><b>E-mail:</b> marcosrobertoteixeira@outlook.com.br</li>
                     <li><b>Data de Nascimento:</b> 28/05/2005</li>
                 </ul>
             </div>
+            <br>
+            <ul class="link_social">
+                <li>
+                    <img src="./Img/Linkedin.png" alt="Linkedin">
+                </li>
+                <li>
+                    <a href="https://github.com/MarcosRobertoT" target="_blank"><img src="./Img/GitHub.png" alt="GitHub"></a>
+                </li>
+            </ul>
+        <br>
     </div>
-    <img src="./Img/Linkedin.png" alt="Linkedin">
+</div>
     <br>
-    <img src="./Img/GitHub.png" alt="GitHub">
-    <br>
-    <h3>
+    <h1 id="aprendendo">
         O que estou aprendendo?
     </h3>
     <br>
     <div class="logos">
-        <figure>
-            <img src="./Img/HTML 5.png" alt="HTML 5">
+        <img src="./Img/H,C,J.jpg" alt="Logo do HTML, CSS e JavaScript">
+        <!-- <figure>
+            <img src="./Img/HTML 5.png" alt="Logo do HTML 5">
             <figcaption>
                 <p>
                     Em HTML 5, eu estou aprendendo a usar as tags para formar o "esqueleto" do site.
@@ -79,7 +92,7 @@
         </figure>
         <br>
         <figure>
-            <img class="esquerda" src="/Img/CSS 3.png" alt="CSS 3">
+            <img src="./Img/CSS 3.png" alt="Logo do CSS 3">
             <figcaption>
                 <p>
                     Em CSS 3, eu pego o "esqueleto" que fiz no HTML e o deixo mais bonito/atrativo. 
@@ -88,13 +101,15 @@
         </figure>
         <br>
         <figure>
-            <img src="./Img/JS.png" alt="JavaScript">
+            <img src="./Img/JS.png" alt="Logo do JavaScript">
             <figcaption>
                 <p>
                     Em JS, aqui eu dou "vida" ao site, usando comandos para interagir com aqueles que o acessam.
                 </p>
             </figcaption>
-        </figure>
+        </figure> -->
     </div>
+    <footer></footer>
+    </main>
 </body>
 </html>

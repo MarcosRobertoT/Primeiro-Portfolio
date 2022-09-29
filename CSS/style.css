@@ -1,8 +1,75 @@
-.logos img{
-    width: 200px;
+
+header {
+    /* position: sticky;
+    top: 0;
+    z-index: 999; */
+    background-color: rgb(50, 57, 78);
+    color: white;
     display: flex;
-    text-align: center;
+    align-items: center; /*alinha os itens no centro/etc */
+    flex-direction: column; /*deixa em coluna ou inverte o lado em que o item fica */
 }
-.esquerda{
-    margin-left: 50px;
+header ul{
+    text-transform: uppercase; /*Deixa o texto em Caps Lock*/
+    border: 30px; /*Borda*/
+}
+header img {
+    width: 150px; 
+    border-radius: 100%; 
+}
+/* img {
+    width: 300px;
+} */
+p, ul {
+    font-size: x-large;
+}
+header nav li {
+    display: inline-block;
+    padding: 25px;
+}
+.apresentacao {
+    display: flex;
+}
+/* .apresentacao p {
+    padding: 5px 20px;
+} */
+header nav li:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+    padding: 15px;
+}
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+header nav li a:hover {
+    color: black;
+    transition: 1s;
+}
+#Sobre {
+    text-align: center;
+    padding: 35px 0px;
+}
+/* .apresentacao img {
+    width: 300px;
+    padding: 30px 40px 30px 40px;
+} */
+.logos img {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+.link_social {
+    display: flex;
+}
+.link_social img {
+    width: 200px;
+}
+.img_sobre {
+    width: 460px;
+    padding: 30px;
+    padding-top: 0;
 }
