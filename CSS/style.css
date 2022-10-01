@@ -22,6 +22,7 @@ header img {
 } */
 p, ul {
     font-size: x-large;
+    padding-right: 80px;
 }
 header nav li {
     display: inline-block;
@@ -29,6 +30,7 @@ header nav li {
 }
 .apresentacao {
     display: flex;
+    /* padding: 15px; */
 }
 /* .apresentacao p {
     padding: 5px 20px;
