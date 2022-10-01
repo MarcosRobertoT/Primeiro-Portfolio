@@ -20,6 +20,9 @@ header img {
 /* img {
     width: 300px;
 } */
+ul {
+    font-size: x-large;
+}
 p {
     font-size: x-large;
     padding-right: 80px;
