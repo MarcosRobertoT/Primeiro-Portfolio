@@ -20,11 +20,12 @@ header img {
 /* img {
     width: 300px;
 } */
-p, ul {
+p {
     font-size: x-large;
     padding-right: 80px;
 }
 header nav li {
+    font-size: x-large;
     display: inline-block;
     padding: 25px;
 }
