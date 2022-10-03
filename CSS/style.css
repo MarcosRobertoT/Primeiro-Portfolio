@@ -57,25 +57,31 @@ header nav li a:hover {
     text-align: center;
     padding: 35px 0px;
 }
-/* .apresentacao img {
-    width: 300px;
-    padding: 30px 40px 30px 40px;
-} */
-.logos img {
-    width: 600px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.link_social li {
     display: inline-block;
 }
-.link_social {
-    display: flex;
+.apresentacao img {
+    width: 30%;
+    padding: 30px;
+    padding-top: 0;    
 }
 .link_social img {
-    width: 200px;
+    width: 250px;
 }
-.img_sobre {
-    width: 35%;
-    padding: 30px;
-    padding-top: 0;
+h3 {
+    font-size: x-large;
+}
+figcaption {
+    font-size: x-large;
+}
+.aprendizado {
+    padding: 15px;
+}
+.aprendizado .linguagens img {
+    width: 200px;
+    padding: 25px;
+}
+.aprendizado .linguagens {
+    display: flex;
+    text-align: center;
 }
